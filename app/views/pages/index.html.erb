@@ -245,12 +245,13 @@
     **********************************************************/
 
     var growShops = {};
+    var growIcon = '/assets/grow-icon.png'
 
     growShops.dinafem = new google.maps.Marker({
         position: {lat: -33.4420634, lng: -70.64286479999998},
         map: map,
         title: 'Dinafem',
-        icon: '/assets/grow-icon.png'
+        icon: growIcon
     });
 
     growShops.growGames = new google.maps.Marker({
@@ -580,11 +581,11 @@
 	}
 
     growShops.psicoactivoVitacura.addListener('mouseover', function() {
-        infowindow.open(map, psicoactivoVitacura);
+        infowindow.open(map, growShops.psicoactivoVitacura);
     });
 
     growShops.psicoactivoVitacura.addListener('mouseout', function() {
-        infowindow.close(map, psicoactivoVitacura);
+        infowindow.close(map, growShops.psicoactivoVitacura);
     });
 
 }
