@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 4, /Users/ignaciopalma/.rvm/gems/ruby-2.2.3/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, /Users/ignaciopalma/.rvm/gems/ruby-2.2.3/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 21, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div#map {
+  height: 500px;
+  margin: 0 10%;
+}
+
+/* line 32, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 36, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 47, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+/* line 58, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+/* line 62, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+.pac-container {
+  font-family: Roboto;
+}
+
+/* line 66, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+/* line 72, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* line 78, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+#target {
+  width: 345px;
+}
+
+/* line 82, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.grow-details {
+  text-align: center;
+}
+
+/* line 86, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.dr-cannabis {
+  text-align: center;
+}
+
+/* line 90, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.hide {
+  display: none;
+}
+
+/* line 94, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 221, 0.5);
+  top: 0;
+}
+/* line 101, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.overlay div.advise {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  height: 300px;
+  top: 25%;
+  left: 25%;
+}
+/* line 109, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.overlay div.advise h2, div.overlay div.advise p {
+  text-align: center;
+}
+/* line 113, /Users/ignaciopalma/Desktop/my-rails-projects/donde_esta_la_mota/app/assets/stylesheets/application.scss */
+div.overlay div.advise p.cerrar:hover {
+  cursor: pointer;
+}
